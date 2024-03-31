@@ -27,32 +27,16 @@ export default function Contact({ contact, size }: ContactProps) {
       link: contact.linkedin,
       link_alt: "LinkedIn",
     },
-    {
-      name: "twitter",
-      icon: "fab fa-x-twitter",
-      link: contact.twitter,
-      link_alt: "Twitter",
-    },
-    {
-      name: "rss",
-      icon: "fas fa-rss",
-      link: "/rss.xml",
-      link_alt: "RSS Feed",
-    },
   ];
 
   return (
-    <div
-      className={
-        "flex flex-row items-center container justify-around"
-      }
-    >
+    <div className={"flex flex-row items-center container justify-around"}>
       {socialMediaLinks.map((socialMedia, index) => (
         <a
           key={index}
           href={socialMedia.link}
-          target="_blank"
-          rel="noreferrer"
+          target='_blank'
+          rel='noreferrer'
           className={
             "text-secondary dark:text-dk-secondary hover:text-accent dark:hover:text-dk-accent " +
             (size === "md" ? "text-3xl lg:text-4xl" : "text-5xl lg:text-9xl")

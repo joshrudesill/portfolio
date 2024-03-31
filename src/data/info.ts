@@ -1,49 +1,43 @@
 export const info = {
-  name: "Bart Simpson",
+  name: "Josh Rudesill",
   brief_description:
-    "I'm a mischievous full stack developer with a knack for troublemaking.",
+    "I'm a full stack developer with an obsession for learning.",
   role: "Full Stack Developer",
-  picture: "/pic.png",
-  picture_alt: "Bart Simpson",
-  location: "Springfield, USA",
+  picture: "/image.png",
+  picture_alt: "Josh Rudesill",
+  location: "Hudson, WI USA",
   cv: "/resume.pdf",
 
   about: {
-    description: `I'm a full stack developer with a passion for causing a little chaos in web development.
-    I have a solid foundation in computer science, although I prefer skateboarding over studying.
-    I excel in building web applications using React, Node.js, and MongoDB.
-    I'm known for my sharp wit and quick thinking, traits that serve me well in coding and pranks alike.
-    Looking for a challenge? Let's create something memorable together.`,
+    description: `I'm a full stack developer with a passion for building things to solve problems and for learning.
+    I have a solid foundation in software because of my time working with a mentor for a year and more importantly my time at Prime Digital Academy where I earned a Fullstack Software Engineering Certification (April 2024 expected).
+    I excel in building web applications using React (Next.js), Node.js (Express), SQL (MariaDB, PostgreSQL) and No-SQL (MongoDB).
+    I'm known for always continuing to learn and teaching others when I can.
+    Looking for a your next dev? Look no further.`,
     education: [
       {
-        title: "Self-Taught Developer Extraordinaire",
-        date: "2000 - Present",
-        location: "Springfield Elementary School of Hard Knocks",
-        gpa: "4.0 (A+ in Pranks)",
-        thesis: "The Art of Subverting Expectations: A Practical Guide",
+        title: "Fullstack Software Engineering Certification",
+        date: "November 2023 - April 2024",
+        location: "Prime Digital Academy",
+        thesis:
+          "Immersion program teaching modern technologies such as JavaScript, React, Node, and SQL. Additional training in diversity, equity, & inclusion, public speaking and presentations, and real-world client work",
       },
     ],
     experience: [
       {
-        title: "Frontend Developer",
-        date: "2015 - Present",
-        location: "Krusty Burger Web Dev",
+        title: "Mentorship w/ Staff Software Engineer",
+        date: "August '22 - August '23",
+        location: "Remote",
         description:
-          "Crafted interactive web experiences using React and Redux. Often multitasked between coding and avoiding Principal Skinner.",
+          "Building production level projects and learning how to work in a real development environment from a Staff Software Engineer with 10+ years of experience. Learning how to be ready to tackle any task especially ones outside of my current stack",
       },
       {
-        title: "Backend Bandit",
-        date: "2013 - 2015",
-        location: "Comic Book Guy's Software Emporium",
-        description:
-          "Masterminded backend solutions using Node.js and MongoDB. Surprisingly good at debugging, considering my history of causing bugs.",
-      },
-      {
-        title: "Junior Hacker",
-        date: "2010 - 2013",
-        location: "Springfield Elementary Cyber Club",
-        description:
-          "Pioneered early web exploits, leading the club in daring coding escapades. Was disciplined for hacking the school's grading system.",
+        title: "Workflow Software Developer + CAD Operator",
+        date: "April '21 - August '22",
+        location: "The Vomela Companies",
+        description: `I was part of a team that created and maintained a C# plugin to extend our CAD program Rhino3D.
+        With around 150 separate job-specific features, the plugin reduced errors by 95% and sped up many
+        routine daily tasks by over 90%. I also created and maintained a custom web app built using react for data centralization and managing project progress within a team of 5 and created production files for commercial printing and cutting following company standards.`,
       },
     ],
 
@@ -52,41 +46,55 @@ export const info = {
 
   projects: [
     {
-      title: "Bart's Prank Portfolio",
-      date: "2024",
-      description:
-        "An interactive portfolio website showcasing my mischievous coding projects.",
-      link: "https://github.com/bartsimpsonfake/prank-portfolio",
-      tech: ["React", "Node.js", "MongoDB", "Sarcasm.js"],
-      img_alt: "Bart's Portfolio",
-      img_path: "/simpsons.png",
-    },
-    {
-      title: "Skateboard Shop",
+      title: "Chess2",
       date: "2023",
       description:
-        "An e-commerce site selling skateboards and prank supplies. No bullies allowed!",
-      link: "https://github.com/bartsimpsonfake/skate-shop",
-      tech: ["React", "Node.js", "MongoDB", "Skateboard.js"],
-      img_alt: "Skateboard Shop",
-      img_path: "skateboard.png",
+        "Chess2 is a web application for playing live chess with anyone around the world or for playing against a chess engine (Stockfish 11). It has matchmaking for finding someone to play with (if anyone is online). ",
+      link: "https://github.com/joshrudesill/chess2",
+      tech: [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Next.js",
+        "Tailwind",
+        "Socket.io",
+        "Express",
+      ],
+      img_alt: "Chess2",
+      img_path: "/chess2.jpg",
     },
     {
-      title: "Comic Book Club",
+      title: "ParchEZ",
+      date: "2024",
+      description:
+        "ParchEZ is a site to play with the board game parcheesi with friends. Simply create an account then create a game and send the code to your friends so they can join!",
+      link: "https://github.com/joshrudesill/parcheesi",
+      tech: [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Tailwind",
+        "Socket.io",
+        "Express",
+      ],
+      img_alt: "ParchEZ",
+      img_path: "/parchez.svg",
+    },
+    {
+      title: "Jewel Scheduler",
       date: "2022",
       description:
-        "A platform for comic book enthusiasts to discuss and share their collections.",
-      link: "https://github.com/bartsimpsonfake/comic-club",
-      tech: ["React", "Node.js", "MongoDB", "Comic.js"],
-      img_alt: "Comic Book Club",
-      img_path: "comics.png",
+        "A web app for creating and managing schedules for your business",
+      link: "https://github.com/joshrudesill/Jewel",
+      tech: ["React", "Node.js", "MongoDB", "Next.js", "Tailwind", "Express"],
+      img_alt: "Jewel",
+      img_path: "jewel.jpg",
     },
   ],
 
   contact: {
-    email: "bart@thesimpsons.com",
-    linkedin: "https://www.linkedin.com/in/bartsimpsonfake",
-    github: "https://www.github.com/bartsimpsonfake",
-    twitter: "https://www.twitter.com/bartsimpsonfake",
+    email: "joshrudesill@gmail.com",
+    linkedin: "https://www.linkedin.com/in/josh-rudesill/",
+    github: "https://github.com/joshrudesill",
   },
 };
